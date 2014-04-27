@@ -5,7 +5,6 @@ using Android.OS;
 using Android.Runtime;
 using Android.Util;
 using Android.Views;
-using Java.Lang;
 using Math = System.Math;
 
 namespace Folding
@@ -416,11 +415,9 @@ namespace Folding
             if (!_shouldDraw)
                 return;
 
-            Rect src;
-
             for (var x = 0; x < _numberOfFolds; x++)
             {
-                src = _foldRectArray[x];
+                var src = _foldRectArray[x];
 
                 canvas.Save();
 
