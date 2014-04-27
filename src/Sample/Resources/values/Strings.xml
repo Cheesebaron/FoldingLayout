@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">Sample</string>
+  <string-array name="num_of_folds_array">
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+  </string-array>
+  <string name="horizontal">Horizontal</string>
+  <string name="vertical">Vertical</string>
+  <string name="num_of_folds">Number Of Folds</string>
 </resources>

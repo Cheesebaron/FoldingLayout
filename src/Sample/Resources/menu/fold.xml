@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    >
+
+  <item
+      android:id="@+id/toggle_orientation"
+      yourapp:showAsAction="ifRoom"
+      android:title="@string/vertical"/>
+
+  <item
+      android:id="@+id/num_of_folds"
+      yourapp:showAsAction="ifRoom"
+      yourapp:actionLayout="@layout/spinner"/>
+</menu>

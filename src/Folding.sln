@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoldingLayout", "FoldingLayout\FoldingLayout.csproj", "{F083E288-2E6B-463E-AFA6-2371AAC69ACC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Folding", "FoldingLayout\Folding.csproj", "{F083E288-2E6B-463E-AFA6-2371AAC69ACC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{7604DB0E-8EB8-43E0-BEDB-CB57965E5744}"
 EndProject
