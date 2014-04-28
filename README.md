@@ -7,7 +7,6 @@ A port of https://github.com/tibi1712/Folding-Android
 Add a layout, which folds up when you scroll your finger across it!
 
 ![screenshot](https://raw.githubusercontent.com/Cheesebaron/FoldingLayout/master/component/screenshots/foldinglayout_folded_anchored_thumb.png)&nbsp;
-![screenshot](https://raw.githubusercontent.com/Cheesebaron/FoldingLayout/master/component/screenshots/foldinglayout_horizontal_thumb.png)&nbsp;
 ![screenshot](https://raw.githubusercontent.com/Cheesebaron/FoldingLayout/master/component/screenshots/foldingdrawerlayout_thumb.png)
 
 ## Key features
