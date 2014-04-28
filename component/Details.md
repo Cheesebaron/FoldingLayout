@@ -1,9 +1,3 @@
-FoldingLayout
-=============
-
-A port of https://github.com/tibi1712/Folding-Android
-
-
 Add a layout, which folds up when you scroll your finger across it!
 
 ## Key features
@@ -19,7 +13,7 @@ This library uses Android Support v4, and it is tested on Android 2.2 and above.
 
 ## Usage
 
-To use it, add the component and in your layout simply wrap your layout with `cheesebaron.folding.FoldingLayout`. It supports one child, but that
+To use it, add the component and in your layout simply wrap your layouts with `cheesebaron.folding.FoldingLayout`. It supports one child, but that
 child can have as many nested children as you want.
 
 ```
@@ -45,21 +39,4 @@ child can have as many nested children as you want.
 </LinearLayout>
 ```
 
-Se sample app for more examples.
-
-License
-=======
-
-```
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+The project is Open Source and can be [forked on GitHub](https://github.com/Cheesebaron/FoldingLayout).
