@@ -839,7 +839,7 @@ namespace Sample
 			public const int ic_drawer_light = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int Icon = 2130837596;
+			public const int icon = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
 			public const int image = 2130837597;

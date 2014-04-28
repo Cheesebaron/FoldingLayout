@@ -77,9 +77,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\drawable\image.png" />
     <AndroidResource Include="Resources\menu\fold.xml" />
@@ -104,6 +101,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_light.9.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_drawer_dark.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_drawer_light.png" />
+    <AndroidResource Include="Resources\drawable\icon.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FoldingLayout\Folding.csproj">
