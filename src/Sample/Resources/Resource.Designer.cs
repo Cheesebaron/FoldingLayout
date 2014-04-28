@@ -26,9 +26,591 @@ namespace Sample
 		
 		public static void UpdateIdValues()
 		{
-			global::Folding.Resource.Attribute.numberOfFolds = global::Sample.Resource.Attribute.numberOfFolds;
-			global::Folding.Resource.Styleable.FoldingLayout = global::Sample.Resource.Styleable.FoldingLayout;
-			global::Folding.Resource.Styleable.FoldingLayout_numberOfFolds = global::Sample.Resource.Styleable.FoldingLayout_numberOfFolds;
+			global::Cheesebaron.Folding.Resource.Animation.abc_fade_in = global::Sample.Resource.Animation.abc_fade_in;
+			global::Cheesebaron.Folding.Resource.Animation.abc_fade_out = global::Sample.Resource.Animation.abc_fade_out;
+			global::Cheesebaron.Folding.Resource.Animation.abc_slide_in_bottom = global::Sample.Resource.Animation.abc_slide_in_bottom;
+			global::Cheesebaron.Folding.Resource.Animation.abc_slide_in_top = global::Sample.Resource.Animation.abc_slide_in_top;
+			global::Cheesebaron.Folding.Resource.Animation.abc_slide_out_bottom = global::Sample.Resource.Animation.abc_slide_out_bottom;
+			global::Cheesebaron.Folding.Resource.Animation.abc_slide_out_top = global::Sample.Resource.Animation.abc_slide_out_top;
+			global::Cheesebaron.Folding.Resource.Attribute.actionBarDivider = global::Sample.Resource.Attribute.actionBarDivider;
+			global::Cheesebaron.Folding.Resource.Attribute.actionBarItemBackground = global::Sample.Resource.Attribute.actionBarItemBackground;
+			global::Cheesebaron.Folding.Resource.Attribute.actionBarSize = global::Sample.Resource.Attribute.actionBarSize;
+			global::Cheesebaron.Folding.Resource.Attribute.actionBarSplitStyle = global::Sample.Resource.Attribute.actionBarSplitStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.actionBarStyle = global::Sample.Resource.Attribute.actionBarStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.actionBarTabBarStyle = global::Sample.Resource.Attribute.actionBarTabBarStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.actionBarTabStyle = global::Sample.Resource.Attribute.actionBarTabStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.actionBarTabTextStyle = global::Sample.Resource.Attribute.actionBarTabTextStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.actionBarWidgetTheme = global::Sample.Resource.Attribute.actionBarWidgetTheme;
+			global::Cheesebaron.Folding.Resource.Attribute.actionButtonStyle = global::Sample.Resource.Attribute.actionButtonStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.actionDropDownStyle = global::Sample.Resource.Attribute.actionDropDownStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.actionLayout = global::Sample.Resource.Attribute.actionLayout;
+			global::Cheesebaron.Folding.Resource.Attribute.actionMenuTextAppearance = global::Sample.Resource.Attribute.actionMenuTextAppearance;
+			global::Cheesebaron.Folding.Resource.Attribute.actionMenuTextColor = global::Sample.Resource.Attribute.actionMenuTextColor;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModeBackground = global::Sample.Resource.Attribute.actionModeBackground;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModeCloseButtonStyle = global::Sample.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModeCloseDrawable = global::Sample.Resource.Attribute.actionModeCloseDrawable;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModeCopyDrawable = global::Sample.Resource.Attribute.actionModeCopyDrawable;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModeCutDrawable = global::Sample.Resource.Attribute.actionModeCutDrawable;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModeFindDrawable = global::Sample.Resource.Attribute.actionModeFindDrawable;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModePasteDrawable = global::Sample.Resource.Attribute.actionModePasteDrawable;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModePopupWindowStyle = global::Sample.Resource.Attribute.actionModePopupWindowStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModeSelectAllDrawable = global::Sample.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModeShareDrawable = global::Sample.Resource.Attribute.actionModeShareDrawable;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModeSplitBackground = global::Sample.Resource.Attribute.actionModeSplitBackground;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModeStyle = global::Sample.Resource.Attribute.actionModeStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.actionModeWebSearchDrawable = global::Sample.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Cheesebaron.Folding.Resource.Attribute.actionOverflowButtonStyle = global::Sample.Resource.Attribute.actionOverflowButtonStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.actionProviderClass = global::Sample.Resource.Attribute.actionProviderClass;
+			global::Cheesebaron.Folding.Resource.Attribute.actionViewClass = global::Sample.Resource.Attribute.actionViewClass;
+			global::Cheesebaron.Folding.Resource.Attribute.activityChooserViewStyle = global::Sample.Resource.Attribute.activityChooserViewStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.background = global::Sample.Resource.Attribute.background;
+			global::Cheesebaron.Folding.Resource.Attribute.backgroundSplit = global::Sample.Resource.Attribute.backgroundSplit;
+			global::Cheesebaron.Folding.Resource.Attribute.backgroundStacked = global::Sample.Resource.Attribute.backgroundStacked;
+			global::Cheesebaron.Folding.Resource.Attribute.buttonBarButtonStyle = global::Sample.Resource.Attribute.buttonBarButtonStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.buttonBarStyle = global::Sample.Resource.Attribute.buttonBarStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.customNavigationLayout = global::Sample.Resource.Attribute.customNavigationLayout;
+			global::Cheesebaron.Folding.Resource.Attribute.disableChildrenWhenDisabled = global::Sample.Resource.Attribute.disableChildrenWhenDisabled;
+			global::Cheesebaron.Folding.Resource.Attribute.displayOptions = global::Sample.Resource.Attribute.displayOptions;
+			global::Cheesebaron.Folding.Resource.Attribute.divider = global::Sample.Resource.Attribute.divider;
+			global::Cheesebaron.Folding.Resource.Attribute.dividerHorizontal = global::Sample.Resource.Attribute.dividerHorizontal;
+			global::Cheesebaron.Folding.Resource.Attribute.dividerPadding = global::Sample.Resource.Attribute.dividerPadding;
+			global::Cheesebaron.Folding.Resource.Attribute.dividerVertical = global::Sample.Resource.Attribute.dividerVertical;
+			global::Cheesebaron.Folding.Resource.Attribute.dropDownListViewStyle = global::Sample.Resource.Attribute.dropDownListViewStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.dropdownListPreferredItemHeight = global::Sample.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Cheesebaron.Folding.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Sample.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Cheesebaron.Folding.Resource.Attribute.height = global::Sample.Resource.Attribute.height;
+			global::Cheesebaron.Folding.Resource.Attribute.homeAsUpIndicator = global::Sample.Resource.Attribute.homeAsUpIndicator;
+			global::Cheesebaron.Folding.Resource.Attribute.homeLayout = global::Sample.Resource.Attribute.homeLayout;
+			global::Cheesebaron.Folding.Resource.Attribute.icon = global::Sample.Resource.Attribute.icon;
+			global::Cheesebaron.Folding.Resource.Attribute.iconifiedByDefault = global::Sample.Resource.Attribute.iconifiedByDefault;
+			global::Cheesebaron.Folding.Resource.Attribute.indeterminateProgressStyle = global::Sample.Resource.Attribute.indeterminateProgressStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.initialActivityCount = global::Sample.Resource.Attribute.initialActivityCount;
+			global::Cheesebaron.Folding.Resource.Attribute.isLightTheme = global::Sample.Resource.Attribute.isLightTheme;
+			global::Cheesebaron.Folding.Resource.Attribute.itemPadding = global::Sample.Resource.Attribute.itemPadding;
+			global::Cheesebaron.Folding.Resource.Attribute.listChoiceBackgroundIndicator = global::Sample.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Cheesebaron.Folding.Resource.Attribute.listPopupWindowStyle = global::Sample.Resource.Attribute.listPopupWindowStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.listPreferredItemHeight = global::Sample.Resource.Attribute.listPreferredItemHeight;
+			global::Cheesebaron.Folding.Resource.Attribute.listPreferredItemHeightLarge = global::Sample.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Cheesebaron.Folding.Resource.Attribute.listPreferredItemHeightSmall = global::Sample.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Cheesebaron.Folding.Resource.Attribute.listPreferredItemPaddingLeft = global::Sample.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Cheesebaron.Folding.Resource.Attribute.listPreferredItemPaddingRight = global::Sample.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Cheesebaron.Folding.Resource.Attribute.logo = global::Sample.Resource.Attribute.logo;
+			global::Cheesebaron.Folding.Resource.Attribute.navigationMode = global::Sample.Resource.Attribute.navigationMode;
+			global::Cheesebaron.Folding.Resource.Attribute.numberOfFolds = global::Sample.Resource.Attribute.numberOfFolds;
+			global::Cheesebaron.Folding.Resource.Attribute.paddingEnd = global::Sample.Resource.Attribute.paddingEnd;
+			global::Cheesebaron.Folding.Resource.Attribute.paddingStart = global::Sample.Resource.Attribute.paddingStart;
+			global::Cheesebaron.Folding.Resource.Attribute.panelMenuListTheme = global::Sample.Resource.Attribute.panelMenuListTheme;
+			global::Cheesebaron.Folding.Resource.Attribute.panelMenuListWidth = global::Sample.Resource.Attribute.panelMenuListWidth;
+			global::Cheesebaron.Folding.Resource.Attribute.popupMenuStyle = global::Sample.Resource.Attribute.popupMenuStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.popupPromptView = global::Sample.Resource.Attribute.popupPromptView;
+			global::Cheesebaron.Folding.Resource.Attribute.progressBarPadding = global::Sample.Resource.Attribute.progressBarPadding;
+			global::Cheesebaron.Folding.Resource.Attribute.progressBarStyle = global::Sample.Resource.Attribute.progressBarStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.prompt = global::Sample.Resource.Attribute.prompt;
+			global::Cheesebaron.Folding.Resource.Attribute.queryHint = global::Sample.Resource.Attribute.queryHint;
+			global::Cheesebaron.Folding.Resource.Attribute.searchDropdownBackground = global::Sample.Resource.Attribute.searchDropdownBackground;
+			global::Cheesebaron.Folding.Resource.Attribute.searchResultListItemHeight = global::Sample.Resource.Attribute.searchResultListItemHeight;
+			global::Cheesebaron.Folding.Resource.Attribute.searchViewAutoCompleteTextView = global::Sample.Resource.Attribute.searchViewAutoCompleteTextView;
+			global::Cheesebaron.Folding.Resource.Attribute.searchViewCloseIcon = global::Sample.Resource.Attribute.searchViewCloseIcon;
+			global::Cheesebaron.Folding.Resource.Attribute.searchViewEditQuery = global::Sample.Resource.Attribute.searchViewEditQuery;
+			global::Cheesebaron.Folding.Resource.Attribute.searchViewEditQueryBackground = global::Sample.Resource.Attribute.searchViewEditQueryBackground;
+			global::Cheesebaron.Folding.Resource.Attribute.searchViewGoIcon = global::Sample.Resource.Attribute.searchViewGoIcon;
+			global::Cheesebaron.Folding.Resource.Attribute.searchViewSearchIcon = global::Sample.Resource.Attribute.searchViewSearchIcon;
+			global::Cheesebaron.Folding.Resource.Attribute.searchViewTextField = global::Sample.Resource.Attribute.searchViewTextField;
+			global::Cheesebaron.Folding.Resource.Attribute.searchViewTextFieldRight = global::Sample.Resource.Attribute.searchViewTextFieldRight;
+			global::Cheesebaron.Folding.Resource.Attribute.searchViewVoiceIcon = global::Sample.Resource.Attribute.searchViewVoiceIcon;
+			global::Cheesebaron.Folding.Resource.Attribute.selectableItemBackground = global::Sample.Resource.Attribute.selectableItemBackground;
+			global::Cheesebaron.Folding.Resource.Attribute.showAsAction = global::Sample.Resource.Attribute.showAsAction;
+			global::Cheesebaron.Folding.Resource.Attribute.showDividers = global::Sample.Resource.Attribute.showDividers;
+			global::Cheesebaron.Folding.Resource.Attribute.spinnerDropDownItemStyle = global::Sample.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.spinnerMode = global::Sample.Resource.Attribute.spinnerMode;
+			global::Cheesebaron.Folding.Resource.Attribute.spinnerStyle = global::Sample.Resource.Attribute.spinnerStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.subtitle = global::Sample.Resource.Attribute.subtitle;
+			global::Cheesebaron.Folding.Resource.Attribute.subtitleTextStyle = global::Sample.Resource.Attribute.subtitleTextStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.textAllCaps = global::Sample.Resource.Attribute.textAllCaps;
+			global::Cheesebaron.Folding.Resource.Attribute.textAppearanceLargePopupMenu = global::Sample.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Cheesebaron.Folding.Resource.Attribute.textAppearanceListItem = global::Sample.Resource.Attribute.textAppearanceListItem;
+			global::Cheesebaron.Folding.Resource.Attribute.textAppearanceListItemSmall = global::Sample.Resource.Attribute.textAppearanceListItemSmall;
+			global::Cheesebaron.Folding.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Sample.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Cheesebaron.Folding.Resource.Attribute.textAppearanceSearchResultTitle = global::Sample.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Cheesebaron.Folding.Resource.Attribute.textAppearanceSmallPopupMenu = global::Sample.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Cheesebaron.Folding.Resource.Attribute.textColorSearchUrl = global::Sample.Resource.Attribute.textColorSearchUrl;
+			global::Cheesebaron.Folding.Resource.Attribute.title = global::Sample.Resource.Attribute.title;
+			global::Cheesebaron.Folding.Resource.Attribute.titleTextStyle = global::Sample.Resource.Attribute.titleTextStyle;
+			global::Cheesebaron.Folding.Resource.Attribute.windowActionBar = global::Sample.Resource.Attribute.windowActionBar;
+			global::Cheesebaron.Folding.Resource.Attribute.windowActionBarOverlay = global::Sample.Resource.Attribute.windowActionBarOverlay;
+			global::Cheesebaron.Folding.Resource.Attribute.windowFixedHeightMajor = global::Sample.Resource.Attribute.windowFixedHeightMajor;
+			global::Cheesebaron.Folding.Resource.Attribute.windowFixedHeightMinor = global::Sample.Resource.Attribute.windowFixedHeightMinor;
+			global::Cheesebaron.Folding.Resource.Attribute.windowFixedWidthMajor = global::Sample.Resource.Attribute.windowFixedWidthMajor;
+			global::Cheesebaron.Folding.Resource.Attribute.windowFixedWidthMinor = global::Sample.Resource.Attribute.windowFixedWidthMinor;
+			global::Cheesebaron.Folding.Resource.Attribute.windowSplitActionBar = global::Sample.Resource.Attribute.windowSplitActionBar;
+			global::Cheesebaron.Folding.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::Sample.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::Cheesebaron.Folding.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::Sample.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::Cheesebaron.Folding.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Sample.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Cheesebaron.Folding.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::Sample.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::Cheesebaron.Folding.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Sample.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Cheesebaron.Folding.Resource.Boolean.abc_split_action_bar_is_narrow = global::Sample.Resource.Boolean.abc_split_action_bar_is_narrow;
+			global::Cheesebaron.Folding.Resource.Color.abc_search_url_text_holo = global::Sample.Resource.Color.abc_search_url_text_holo;
+			global::Cheesebaron.Folding.Resource.Color.abc_search_url_text_normal = global::Sample.Resource.Color.abc_search_url_text_normal;
+			global::Cheesebaron.Folding.Resource.Color.abc_search_url_text_pressed = global::Sample.Resource.Color.abc_search_url_text_pressed;
+			global::Cheesebaron.Folding.Resource.Color.abc_search_url_text_selected = global::Sample.Resource.Color.abc_search_url_text_selected;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_action_bar_default_height = global::Sample.Resource.Dimension.abc_action_bar_default_height;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_action_bar_icon_vertical_padding = global::Sample.Resource.Dimension.abc_action_bar_icon_vertical_padding;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_action_bar_progress_bar_size = global::Sample.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_action_bar_stacked_max_height = global::Sample.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Sample.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_action_bar_subtitle_bottom_margin = global::Sample.Resource.Dimension.abc_action_bar_subtitle_bottom_margin;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_action_bar_subtitle_text_size = global::Sample.Resource.Dimension.abc_action_bar_subtitle_text_size;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_action_bar_subtitle_top_margin = global::Sample.Resource.Dimension.abc_action_bar_subtitle_top_margin;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_action_bar_title_text_size = global::Sample.Resource.Dimension.abc_action_bar_title_text_size;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_action_button_min_width = global::Sample.Resource.Dimension.abc_action_button_min_width;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_config_prefDialogWidth = global::Sample.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_dropdownitem_icon_width = global::Sample.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Sample.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Sample.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_panel_menu_list_width = global::Sample.Resource.Dimension.abc_panel_menu_list_width;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_search_view_preferred_width = global::Sample.Resource.Dimension.abc_search_view_preferred_width;
+			global::Cheesebaron.Folding.Resource.Dimension.abc_search_view_text_min_width = global::Sample.Resource.Dimension.abc_search_view_text_min_width;
+			global::Cheesebaron.Folding.Resource.Dimension.dialog_fixed_height_major = global::Sample.Resource.Dimension.dialog_fixed_height_major;
+			global::Cheesebaron.Folding.Resource.Dimension.dialog_fixed_height_minor = global::Sample.Resource.Dimension.dialog_fixed_height_minor;
+			global::Cheesebaron.Folding.Resource.Dimension.dialog_fixed_width_major = global::Sample.Resource.Dimension.dialog_fixed_width_major;
+			global::Cheesebaron.Folding.Resource.Dimension.dialog_fixed_width_minor = global::Sample.Resource.Dimension.dialog_fixed_width_minor;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_bottom_solid_dark_holo = global::Sample.Resource.Drawable.abc_ab_bottom_solid_dark_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_bottom_solid_light_holo = global::Sample.Resource.Drawable.abc_ab_bottom_solid_light_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_bottom_transparent_dark_holo = global::Sample.Resource.Drawable.abc_ab_bottom_transparent_dark_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_bottom_transparent_light_holo = global::Sample.Resource.Drawable.abc_ab_bottom_transparent_light_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_share_pack_holo_dark = global::Sample.Resource.Drawable.abc_ab_share_pack_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_share_pack_holo_light = global::Sample.Resource.Drawable.abc_ab_share_pack_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_solid_dark_holo = global::Sample.Resource.Drawable.abc_ab_solid_dark_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_solid_light_holo = global::Sample.Resource.Drawable.abc_ab_solid_light_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_stacked_solid_dark_holo = global::Sample.Resource.Drawable.abc_ab_stacked_solid_dark_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_stacked_solid_light_holo = global::Sample.Resource.Drawable.abc_ab_stacked_solid_light_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_stacked_transparent_dark_holo = global::Sample.Resource.Drawable.abc_ab_stacked_transparent_dark_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_stacked_transparent_light_holo = global::Sample.Resource.Drawable.abc_ab_stacked_transparent_light_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_transparent_dark_holo = global::Sample.Resource.Drawable.abc_ab_transparent_dark_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ab_transparent_light_holo = global::Sample.Resource.Drawable.abc_ab_transparent_light_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_cab_background_bottom_holo_dark = global::Sample.Resource.Drawable.abc_cab_background_bottom_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_cab_background_bottom_holo_light = global::Sample.Resource.Drawable.abc_cab_background_bottom_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_cab_background_top_holo_dark = global::Sample.Resource.Drawable.abc_cab_background_top_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_cab_background_top_holo_light = global::Sample.Resource.Drawable.abc_cab_background_top_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_ab_back_holo_dark = global::Sample.Resource.Drawable.abc_ic_ab_back_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_ab_back_holo_light = global::Sample.Resource.Drawable.abc_ic_ab_back_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_cab_done_holo_dark = global::Sample.Resource.Drawable.abc_ic_cab_done_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_cab_done_holo_light = global::Sample.Resource.Drawable.abc_ic_cab_done_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_clear = global::Sample.Resource.Drawable.abc_ic_clear;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_clear_disabled = global::Sample.Resource.Drawable.abc_ic_clear_disabled;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_clear_holo_light = global::Sample.Resource.Drawable.abc_ic_clear_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_clear_normal = global::Sample.Resource.Drawable.abc_ic_clear_normal;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_clear_search_api_disabled_holo_light = global::Sample.Resource.Drawable.abc_ic_clear_search_api_disabled_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_clear_search_api_holo_light = global::Sample.Resource.Drawable.abc_ic_clear_search_api_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_commit_search_api_holo_dark = global::Sample.Resource.Drawable.abc_ic_commit_search_api_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_commit_search_api_holo_light = global::Sample.Resource.Drawable.abc_ic_commit_search_api_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_go = global::Sample.Resource.Drawable.abc_ic_go;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_go_search_api_holo_light = global::Sample.Resource.Drawable.abc_ic_go_search_api_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_menu_moreoverflow_normal_holo_dark = global::Sample.Resource.Drawable.abc_ic_menu_moreoverflow_normal_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_menu_moreoverflow_normal_holo_light = global::Sample.Resource.Drawable.abc_ic_menu_moreoverflow_normal_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_menu_share_holo_dark = global::Sample.Resource.Drawable.abc_ic_menu_share_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_menu_share_holo_light = global::Sample.Resource.Drawable.abc_ic_menu_share_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_search = global::Sample.Resource.Drawable.abc_ic_search;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_search_api_holo_light = global::Sample.Resource.Drawable.abc_ic_search_api_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_voice_search = global::Sample.Resource.Drawable.abc_ic_voice_search;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_ic_voice_search_api_holo_light = global::Sample.Resource.Drawable.abc_ic_voice_search_api_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_item_background_holo_dark = global::Sample.Resource.Drawable.abc_item_background_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_item_background_holo_light = global::Sample.Resource.Drawable.abc_item_background_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_divider_holo_dark = global::Sample.Resource.Drawable.abc_list_divider_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_divider_holo_light = global::Sample.Resource.Drawable.abc_list_divider_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_focused_holo = global::Sample.Resource.Drawable.abc_list_focused_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_longpressed_holo = global::Sample.Resource.Drawable.abc_list_longpressed_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_pressed_holo_dark = global::Sample.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_pressed_holo_light = global::Sample.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Sample.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Sample.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Sample.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Sample.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_selector_holo_dark = global::Sample.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_list_selector_holo_light = global::Sample.Resource.Drawable.abc_list_selector_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_menu_dropdown_panel_holo_dark = global::Sample.Resource.Drawable.abc_menu_dropdown_panel_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_menu_dropdown_panel_holo_light = global::Sample.Resource.Drawable.abc_menu_dropdown_panel_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_menu_hardkey_panel_holo_dark = global::Sample.Resource.Drawable.abc_menu_hardkey_panel_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_menu_hardkey_panel_holo_light = global::Sample.Resource.Drawable.abc_menu_hardkey_panel_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_search_dropdown_dark = global::Sample.Resource.Drawable.abc_search_dropdown_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_search_dropdown_light = global::Sample.Resource.Drawable.abc_search_dropdown_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_spinner_ab_default_holo_dark = global::Sample.Resource.Drawable.abc_spinner_ab_default_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_spinner_ab_default_holo_light = global::Sample.Resource.Drawable.abc_spinner_ab_default_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_spinner_ab_disabled_holo_dark = global::Sample.Resource.Drawable.abc_spinner_ab_disabled_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_spinner_ab_disabled_holo_light = global::Sample.Resource.Drawable.abc_spinner_ab_disabled_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_spinner_ab_focused_holo_dark = global::Sample.Resource.Drawable.abc_spinner_ab_focused_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_spinner_ab_focused_holo_light = global::Sample.Resource.Drawable.abc_spinner_ab_focused_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_spinner_ab_holo_dark = global::Sample.Resource.Drawable.abc_spinner_ab_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_spinner_ab_holo_light = global::Sample.Resource.Drawable.abc_spinner_ab_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_spinner_ab_pressed_holo_dark = global::Sample.Resource.Drawable.abc_spinner_ab_pressed_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_spinner_ab_pressed_holo_light = global::Sample.Resource.Drawable.abc_spinner_ab_pressed_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_tab_indicator_ab_holo = global::Sample.Resource.Drawable.abc_tab_indicator_ab_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_tab_selected_focused_holo = global::Sample.Resource.Drawable.abc_tab_selected_focused_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_tab_selected_holo = global::Sample.Resource.Drawable.abc_tab_selected_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_tab_selected_pressed_holo = global::Sample.Resource.Drawable.abc_tab_selected_pressed_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_tab_unselected_pressed_holo = global::Sample.Resource.Drawable.abc_tab_unselected_pressed_holo;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_search_default_holo_dark = global::Sample.Resource.Drawable.abc_textfield_search_default_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_search_default_holo_light = global::Sample.Resource.Drawable.abc_textfield_search_default_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_search_right_default_holo_dark = global::Sample.Resource.Drawable.abc_textfield_search_right_default_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_search_right_default_holo_light = global::Sample.Resource.Drawable.abc_textfield_search_right_default_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_search_right_selected_holo_dark = global::Sample.Resource.Drawable.abc_textfield_search_right_selected_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_search_right_selected_holo_light = global::Sample.Resource.Drawable.abc_textfield_search_right_selected_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_search_selected_holo_dark = global::Sample.Resource.Drawable.abc_textfield_search_selected_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_search_selected_holo_light = global::Sample.Resource.Drawable.abc_textfield_search_selected_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_searchview_holo_dark = global::Sample.Resource.Drawable.abc_textfield_searchview_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_searchview_holo_light = global::Sample.Resource.Drawable.abc_textfield_searchview_holo_light;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_searchview_right_holo_dark = global::Sample.Resource.Drawable.abc_textfield_searchview_right_holo_dark;
+			global::Cheesebaron.Folding.Resource.Drawable.abc_textfield_searchview_right_holo_light = global::Sample.Resource.Drawable.abc_textfield_searchview_right_holo_light;
+			global::Cheesebaron.Folding.Resource.Id.action_bar = global::Sample.Resource.Id.action_bar;
+			global::Cheesebaron.Folding.Resource.Id.action_bar_activity_content = global::Sample.Resource.Id.action_bar_activity_content;
+			global::Cheesebaron.Folding.Resource.Id.action_bar_container = global::Sample.Resource.Id.action_bar_container;
+			global::Cheesebaron.Folding.Resource.Id.action_bar_overlay_layout = global::Sample.Resource.Id.action_bar_overlay_layout;
+			global::Cheesebaron.Folding.Resource.Id.action_bar_root = global::Sample.Resource.Id.action_bar_root;
+			global::Cheesebaron.Folding.Resource.Id.action_bar_subtitle = global::Sample.Resource.Id.action_bar_subtitle;
+			global::Cheesebaron.Folding.Resource.Id.action_bar_title = global::Sample.Resource.Id.action_bar_title;
+			global::Cheesebaron.Folding.Resource.Id.action_context_bar = global::Sample.Resource.Id.action_context_bar;
+			global::Cheesebaron.Folding.Resource.Id.action_menu_divider = global::Sample.Resource.Id.action_menu_divider;
+			global::Cheesebaron.Folding.Resource.Id.action_menu_presenter = global::Sample.Resource.Id.action_menu_presenter;
+			global::Cheesebaron.Folding.Resource.Id.action_mode_close_button = global::Sample.Resource.Id.action_mode_close_button;
+			global::Cheesebaron.Folding.Resource.Id.activity_chooser_view_content = global::Sample.Resource.Id.activity_chooser_view_content;
+			global::Cheesebaron.Folding.Resource.Id.always = global::Sample.Resource.Id.always;
+			global::Cheesebaron.Folding.Resource.Id.beginning = global::Sample.Resource.Id.beginning;
+			global::Cheesebaron.Folding.Resource.Id.checkbox = global::Sample.Resource.Id.checkbox;
+			global::Cheesebaron.Folding.Resource.Id.collapseActionView = global::Sample.Resource.Id.collapseActionView;
+			global::Cheesebaron.Folding.Resource.Id.default_activity_button = global::Sample.Resource.Id.default_activity_button;
+			global::Cheesebaron.Folding.Resource.Id.dialog = global::Sample.Resource.Id.dialog;
+			global::Cheesebaron.Folding.Resource.Id.disableHome = global::Sample.Resource.Id.disableHome;
+			global::Cheesebaron.Folding.Resource.Id.dropdown = global::Sample.Resource.Id.dropdown;
+			global::Cheesebaron.Folding.Resource.Id.edit_query = global::Sample.Resource.Id.edit_query;
+			global::Cheesebaron.Folding.Resource.Id.end = global::Sample.Resource.Id.end;
+			global::Cheesebaron.Folding.Resource.Id.expand_activities_button = global::Sample.Resource.Id.expand_activities_button;
+			global::Cheesebaron.Folding.Resource.Id.expanded_menu = global::Sample.Resource.Id.expanded_menu;
+			global::Cheesebaron.Folding.Resource.Id.home = global::Sample.Resource.Id.home;
+			global::Cheesebaron.Folding.Resource.Id.homeAsUp = global::Sample.Resource.Id.homeAsUp;
+			global::Cheesebaron.Folding.Resource.Id.icon = global::Sample.Resource.Id.icon;
+			global::Cheesebaron.Folding.Resource.Id.ifRoom = global::Sample.Resource.Id.ifRoom;
+			global::Cheesebaron.Folding.Resource.Id.image = global::Sample.Resource.Id.image;
+			global::Cheesebaron.Folding.Resource.Id.listMode = global::Sample.Resource.Id.listMode;
+			global::Cheesebaron.Folding.Resource.Id.list_item = global::Sample.Resource.Id.list_item;
+			global::Cheesebaron.Folding.Resource.Id.middle = global::Sample.Resource.Id.middle;
+			global::Cheesebaron.Folding.Resource.Id.never = global::Sample.Resource.Id.never;
+			global::Cheesebaron.Folding.Resource.Id.none = global::Sample.Resource.Id.none;
+			global::Cheesebaron.Folding.Resource.Id.normal = global::Sample.Resource.Id.normal;
+			global::Cheesebaron.Folding.Resource.Id.progress_circular = global::Sample.Resource.Id.progress_circular;
+			global::Cheesebaron.Folding.Resource.Id.progress_horizontal = global::Sample.Resource.Id.progress_horizontal;
+			global::Cheesebaron.Folding.Resource.Id.radio = global::Sample.Resource.Id.radio;
+			global::Cheesebaron.Folding.Resource.Id.search_badge = global::Sample.Resource.Id.search_badge;
+			global::Cheesebaron.Folding.Resource.Id.search_bar = global::Sample.Resource.Id.search_bar;
+			global::Cheesebaron.Folding.Resource.Id.search_button = global::Sample.Resource.Id.search_button;
+			global::Cheesebaron.Folding.Resource.Id.search_close_btn = global::Sample.Resource.Id.search_close_btn;
+			global::Cheesebaron.Folding.Resource.Id.search_edit_frame = global::Sample.Resource.Id.search_edit_frame;
+			global::Cheesebaron.Folding.Resource.Id.search_go_btn = global::Sample.Resource.Id.search_go_btn;
+			global::Cheesebaron.Folding.Resource.Id.search_mag_icon = global::Sample.Resource.Id.search_mag_icon;
+			global::Cheesebaron.Folding.Resource.Id.search_plate = global::Sample.Resource.Id.search_plate;
+			global::Cheesebaron.Folding.Resource.Id.search_src_text = global::Sample.Resource.Id.search_src_text;
+			global::Cheesebaron.Folding.Resource.Id.search_voice_btn = global::Sample.Resource.Id.search_voice_btn;
+			global::Cheesebaron.Folding.Resource.Id.shortcut = global::Sample.Resource.Id.shortcut;
+			global::Cheesebaron.Folding.Resource.Id.showCustom = global::Sample.Resource.Id.showCustom;
+			global::Cheesebaron.Folding.Resource.Id.showHome = global::Sample.Resource.Id.showHome;
+			global::Cheesebaron.Folding.Resource.Id.showTitle = global::Sample.Resource.Id.showTitle;
+			global::Cheesebaron.Folding.Resource.Id.split_action_bar = global::Sample.Resource.Id.split_action_bar;
+			global::Cheesebaron.Folding.Resource.Id.submit_area = global::Sample.Resource.Id.submit_area;
+			global::Cheesebaron.Folding.Resource.Id.tabMode = global::Sample.Resource.Id.tabMode;
+			global::Cheesebaron.Folding.Resource.Id.title = global::Sample.Resource.Id.title;
+			global::Cheesebaron.Folding.Resource.Id.top_action_bar = global::Sample.Resource.Id.top_action_bar;
+			global::Cheesebaron.Folding.Resource.Id.up = global::Sample.Resource.Id.up;
+			global::Cheesebaron.Folding.Resource.Id.useLogo = global::Sample.Resource.Id.useLogo;
+			global::Cheesebaron.Folding.Resource.Id.withText = global::Sample.Resource.Id.withText;
+			global::Cheesebaron.Folding.Resource.Integer.abc_max_action_buttons = global::Sample.Resource.Integer.abc_max_action_buttons;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_bar_decor = global::Sample.Resource.Layout.abc_action_bar_decor;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_bar_decor_include = global::Sample.Resource.Layout.abc_action_bar_decor_include;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_bar_decor_overlay = global::Sample.Resource.Layout.abc_action_bar_decor_overlay;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_bar_home = global::Sample.Resource.Layout.abc_action_bar_home;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_bar_tab = global::Sample.Resource.Layout.abc_action_bar_tab;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_bar_tabbar = global::Sample.Resource.Layout.abc_action_bar_tabbar;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_bar_title_item = global::Sample.Resource.Layout.abc_action_bar_title_item;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_bar_view_list_nav_layout = global::Sample.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_menu_item_layout = global::Sample.Resource.Layout.abc_action_menu_item_layout;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_menu_layout = global::Sample.Resource.Layout.abc_action_menu_layout;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_mode_bar = global::Sample.Resource.Layout.abc_action_mode_bar;
+			global::Cheesebaron.Folding.Resource.Layout.abc_action_mode_close_item = global::Sample.Resource.Layout.abc_action_mode_close_item;
+			global::Cheesebaron.Folding.Resource.Layout.abc_activity_chooser_view = global::Sample.Resource.Layout.abc_activity_chooser_view;
+			global::Cheesebaron.Folding.Resource.Layout.abc_activity_chooser_view_include = global::Sample.Resource.Layout.abc_activity_chooser_view_include;
+			global::Cheesebaron.Folding.Resource.Layout.abc_activity_chooser_view_list_item = global::Sample.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Cheesebaron.Folding.Resource.Layout.abc_expanded_menu_layout = global::Sample.Resource.Layout.abc_expanded_menu_layout;
+			global::Cheesebaron.Folding.Resource.Layout.abc_list_menu_item_checkbox = global::Sample.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Cheesebaron.Folding.Resource.Layout.abc_list_menu_item_icon = global::Sample.Resource.Layout.abc_list_menu_item_icon;
+			global::Cheesebaron.Folding.Resource.Layout.abc_list_menu_item_layout = global::Sample.Resource.Layout.abc_list_menu_item_layout;
+			global::Cheesebaron.Folding.Resource.Layout.abc_list_menu_item_radio = global::Sample.Resource.Layout.abc_list_menu_item_radio;
+			global::Cheesebaron.Folding.Resource.Layout.abc_popup_menu_item_layout = global::Sample.Resource.Layout.abc_popup_menu_item_layout;
+			global::Cheesebaron.Folding.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Sample.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Cheesebaron.Folding.Resource.Layout.abc_search_view = global::Sample.Resource.Layout.abc_search_view;
+			global::Cheesebaron.Folding.Resource.Layout.abc_simple_decor = global::Sample.Resource.Layout.abc_simple_decor;
+			global::Cheesebaron.Folding.Resource.Layout.support_simple_spinner_dropdown_item = global::Sample.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Cheesebaron.Folding.Resource.String.abc_action_bar_home_description = global::Sample.Resource.String.abc_action_bar_home_description;
+			global::Cheesebaron.Folding.Resource.String.abc_action_bar_up_description = global::Sample.Resource.String.abc_action_bar_up_description;
+			global::Cheesebaron.Folding.Resource.String.abc_action_menu_overflow_description = global::Sample.Resource.String.abc_action_menu_overflow_description;
+			global::Cheesebaron.Folding.Resource.String.abc_action_mode_done = global::Sample.Resource.String.abc_action_mode_done;
+			global::Cheesebaron.Folding.Resource.String.abc_activity_chooser_view_see_all = global::Sample.Resource.String.abc_activity_chooser_view_see_all;
+			global::Cheesebaron.Folding.Resource.String.abc_activitychooserview_choose_application = global::Sample.Resource.String.abc_activitychooserview_choose_application;
+			global::Cheesebaron.Folding.Resource.String.abc_searchview_description_clear = global::Sample.Resource.String.abc_searchview_description_clear;
+			global::Cheesebaron.Folding.Resource.String.abc_searchview_description_query = global::Sample.Resource.String.abc_searchview_description_query;
+			global::Cheesebaron.Folding.Resource.String.abc_searchview_description_search = global::Sample.Resource.String.abc_searchview_description_search;
+			global::Cheesebaron.Folding.Resource.String.abc_searchview_description_submit = global::Sample.Resource.String.abc_searchview_description_submit;
+			global::Cheesebaron.Folding.Resource.String.abc_searchview_description_voice = global::Sample.Resource.String.abc_searchview_description_voice;
+			global::Cheesebaron.Folding.Resource.String.abc_shareactionprovider_share_with = global::Sample.Resource.String.abc_shareactionprovider_share_with;
+			global::Cheesebaron.Folding.Resource.String.abc_shareactionprovider_share_with_application = global::Sample.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Base_CompactMenu_Dialog = global::Sample.Resource.Style.TextAppearance_AppCompat_Base_CompactMenu_Dialog;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Base_SearchResult = global::Sample.Resource.Style.TextAppearance_AppCompat_Base_SearchResult;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Base_SearchResult_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Base_SearchResult_Subtitle;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Base_SearchResult_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Base_SearchResult_Title;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Base_Widget_PopupMenu_Large = global::Sample.Resource.Style.TextAppearance_AppCompat_Base_Widget_PopupMenu_Large;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Base_Widget_PopupMenu_Small = global::Sample.Resource.Style.TextAppearance_AppCompat_Base_Widget_PopupMenu_Small;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Light_Base_SearchResult = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_Base_SearchResult;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Light_Base_SearchResult_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_Base_SearchResult_Subtitle;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Light_Base_SearchResult_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_Base_SearchResult_Title;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Large = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Large;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Small = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Small;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionBar_Menu = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionBar_Menu;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionBar_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionBar_Title;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionBar_Title_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionBar_Title_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionMode_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionMode_Title;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionMode_Title_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Base_ActionMode_Title_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_Base_DropDownItem = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Base_DropDownItem;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_Widget_AppCompat_Base_ExpandedMenu_Item = global::Sample.Resource.Style.TextAppearance_Widget_AppCompat_Base_ExpandedMenu_Item;
+			global::Cheesebaron.Folding.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Sample.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Cheesebaron.Folding.Resource.Style.Theme_AppCompat = global::Sample.Resource.Style.Theme_AppCompat;
+			global::Cheesebaron.Folding.Resource.Style.Theme_AppCompat_Base_CompactMenu = global::Sample.Resource.Style.Theme_AppCompat_Base_CompactMenu;
+			global::Cheesebaron.Folding.Resource.Style.Theme_AppCompat_Base_CompactMenu_Dialog = global::Sample.Resource.Style.Theme_AppCompat_Base_CompactMenu_Dialog;
+			global::Cheesebaron.Folding.Resource.Style.Theme_AppCompat_CompactMenu = global::Sample.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Cheesebaron.Folding.Resource.Style.Theme_AppCompat_CompactMenu_Dialog = global::Sample.Resource.Style.Theme_AppCompat_CompactMenu_Dialog;
+			global::Cheesebaron.Folding.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Sample.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Cheesebaron.Folding.Resource.Style.Theme_AppCompat_Light = global::Sample.Resource.Style.Theme_AppCompat_Light;
+			global::Cheesebaron.Folding.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Sample.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Cheesebaron.Folding.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Sample.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Cheesebaron.Folding.Resource.Style.Theme_Base = global::Sample.Resource.Style.Theme_Base;
+			global::Cheesebaron.Folding.Resource.Style.Theme_Base_AppCompat = global::Sample.Resource.Style.Theme_Base_AppCompat;
+			global::Cheesebaron.Folding.Resource.Style.Theme_Base_AppCompat_Dialog_FixedSize = global::Sample.Resource.Style.Theme_Base_AppCompat_Dialog_FixedSize;
+			global::Cheesebaron.Folding.Resource.Style.Theme_Base_AppCompat_Dialog_Light_FixedSize = global::Sample.Resource.Style.Theme_Base_AppCompat_Dialog_Light_FixedSize;
+			global::Cheesebaron.Folding.Resource.Style.Theme_Base_AppCompat_DialogWhenLarge = global::Sample.Resource.Style.Theme_Base_AppCompat_DialogWhenLarge;
+			global::Cheesebaron.Folding.Resource.Style.Theme_Base_AppCompat_DialogWhenLarge_Base = global::Sample.Resource.Style.Theme_Base_AppCompat_DialogWhenLarge_Base;
+			global::Cheesebaron.Folding.Resource.Style.Theme_Base_AppCompat_Light = global::Sample.Resource.Style.Theme_Base_AppCompat_Light;
+			global::Cheesebaron.Folding.Resource.Style.Theme_Base_AppCompat_Light_DarkActionBar = global::Sample.Resource.Style.Theme_Base_AppCompat_Light_DarkActionBar;
+			global::Cheesebaron.Folding.Resource.Style.Theme_Base_AppCompat_Light_DialogWhenLarge = global::Sample.Resource.Style.Theme_Base_AppCompat_Light_DialogWhenLarge;
+			global::Cheesebaron.Folding.Resource.Style.Theme_Base_AppCompat_Light_DialogWhenLarge_Base = global::Sample.Resource.Style.Theme_Base_AppCompat_Light_DialogWhenLarge_Base;
+			global::Cheesebaron.Folding.Resource.Style.Theme_Base_Light = global::Sample.Resource.Style.Theme_Base_Light;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ActionButton = global::Sample.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Sample.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Sample.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ActionMode = global::Sample.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Sample.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Sample.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Base_ActionBar;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ActionBar_Solid = global::Sample.Resource.Style.Widget_AppCompat_Base_ActionBar_Solid;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ActionBar_TabBar = global::Sample.Resource.Style.Widget_AppCompat_Base_ActionBar_TabBar;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ActionBar_TabText = global::Sample.Resource.Style.Widget_AppCompat_Base_ActionBar_TabText;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ActionBar_TabView = global::Sample.Resource.Style.Widget_AppCompat_Base_ActionBar_TabView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ActionButton = global::Sample.Resource.Style.Widget_AppCompat_Base_ActionButton;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ActionButton_CloseMode = global::Sample.Resource.Style.Widget_AppCompat_Base_ActionButton_CloseMode;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ActionButton_Overflow = global::Sample.Resource.Style.Widget_AppCompat_Base_ActionButton_Overflow;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ActionMode = global::Sample.Resource.Style.Widget_AppCompat_Base_ActionMode;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ActivityChooserView = global::Sample.Resource.Style.Widget_AppCompat_Base_ActivityChooserView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_AutoCompleteTextView = global::Sample.Resource.Style.Widget_AppCompat_Base_AutoCompleteTextView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_DropDownItem_Spinner = global::Sample.Resource.Style.Widget_AppCompat_Base_DropDownItem_Spinner;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ListPopupWindow = global::Sample.Resource.Style.Widget_AppCompat_Base_ListPopupWindow;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ListView_DropDown = global::Sample.Resource.Style.Widget_AppCompat_Base_ListView_DropDown;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ListView_Menu = global::Sample.Resource.Style.Widget_AppCompat_Base_ListView_Menu;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_PopupMenu = global::Sample.Resource.Style.Widget_AppCompat_Base_PopupMenu;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ProgressBar = global::Sample.Resource.Style.Widget_AppCompat_Base_ProgressBar;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_ProgressBar_Horizontal = global::Sample.Resource.Style.Widget_AppCompat_Base_ProgressBar_Horizontal;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Base_Spinner = global::Sample.Resource.Style.Widget_AppCompat_Base_Spinner;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Sample.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Sample.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Sample.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionBar;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_Solid = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_Solid;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_Solid_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_Solid_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabBar = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabBar;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabBar_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabBar_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabText = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabText;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabText_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabText_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabView = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabView_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionBar_TabView_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionButton = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionButton;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionButton_CloseMode = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionButton_CloseMode;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionButton_Overflow = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionButton_Overflow;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActionMode_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActionMode_Inverse;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ActivityChooserView = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ActivityChooserView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_AutoCompleteTextView = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_AutoCompleteTextView;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_DropDownItem_Spinner = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_DropDownItem_Spinner;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ListPopupWindow = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ListPopupWindow;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_ListView_DropDown = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_ListView_DropDown;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_PopupMenu = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_PopupMenu;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Base_Spinner = global::Sample.Resource.Style.Widget_AppCompat_Light_Base_Spinner;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Sample.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Sample.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Sample.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Sample.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Sample.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Sample.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ListView_Menu = global::Sample.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_PopupMenu = global::Sample.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ProgressBar = global::Sample.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Sample.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Cheesebaron.Folding.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar = global::Sample.Resource.Styleable.ActionBar;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_background = global::Sample.Resource.Styleable.ActionBar_background;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_backgroundSplit = global::Sample.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_backgroundStacked = global::Sample.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_customNavigationLayout = global::Sample.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_displayOptions = global::Sample.Resource.Styleable.ActionBar_displayOptions;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_divider = global::Sample.Resource.Styleable.ActionBar_divider;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_height = global::Sample.Resource.Styleable.ActionBar_height;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_homeLayout = global::Sample.Resource.Styleable.ActionBar_homeLayout;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_icon = global::Sample.Resource.Styleable.ActionBar_icon;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Sample.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_itemPadding = global::Sample.Resource.Styleable.ActionBar_itemPadding;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_logo = global::Sample.Resource.Styleable.ActionBar_logo;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_navigationMode = global::Sample.Resource.Styleable.ActionBar_navigationMode;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_progressBarPadding = global::Sample.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_progressBarStyle = global::Sample.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_subtitle = global::Sample.Resource.Styleable.ActionBar_subtitle;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_subtitleTextStyle = global::Sample.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_title = global::Sample.Resource.Styleable.ActionBar_title;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBar_titleTextStyle = global::Sample.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBarLayout = global::Sample.Resource.Styleable.ActionBarLayout;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Sample.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBarWindow = global::Sample.Resource.Styleable.ActionBarWindow;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBarWindow_windowActionBar = global::Sample.Resource.Styleable.ActionBarWindow_windowActionBar;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBarWindow_windowActionBarOverlay = global::Sample.Resource.Styleable.ActionBarWindow_windowActionBarOverlay;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBarWindow_windowFixedHeightMajor = global::Sample.Resource.Styleable.ActionBarWindow_windowFixedHeightMajor;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBarWindow_windowFixedHeightMinor = global::Sample.Resource.Styleable.ActionBarWindow_windowFixedHeightMinor;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBarWindow_windowFixedWidthMajor = global::Sample.Resource.Styleable.ActionBarWindow_windowFixedWidthMajor;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBarWindow_windowFixedWidthMinor = global::Sample.Resource.Styleable.ActionBarWindow_windowFixedWidthMinor;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionBarWindow_windowSplitActionBar = global::Sample.Resource.Styleable.ActionBarWindow_windowSplitActionBar;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionMenuItemView = global::Sample.Resource.Styleable.ActionMenuItemView;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Sample.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionMenuView = global::Sample.Resource.Styleable.ActionMenuView;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionMode = global::Sample.Resource.Styleable.ActionMode;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionMode_background = global::Sample.Resource.Styleable.ActionMode_background;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionMode_backgroundSplit = global::Sample.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionMode_height = global::Sample.Resource.Styleable.ActionMode_height;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionMode_subtitleTextStyle = global::Sample.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Cheesebaron.Folding.Resource.Styleable.ActionMode_titleTextStyle = global::Sample.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Cheesebaron.Folding.Resource.Styleable.ActivityChooserView = global::Sample.Resource.Styleable.ActivityChooserView;
+			global::Cheesebaron.Folding.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Sample.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Cheesebaron.Folding.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Sample.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Cheesebaron.Folding.Resource.Styleable.CompatTextView = global::Sample.Resource.Styleable.CompatTextView;
+			global::Cheesebaron.Folding.Resource.Styleable.CompatTextView_textAllCaps = global::Sample.Resource.Styleable.CompatTextView_textAllCaps;
+			global::Cheesebaron.Folding.Resource.Styleable.FoldingLayout = global::Sample.Resource.Styleable.FoldingLayout;
+			global::Cheesebaron.Folding.Resource.Styleable.FoldingLayout_numberOfFolds = global::Sample.Resource.Styleable.FoldingLayout_numberOfFolds;
+			global::Cheesebaron.Folding.Resource.Styleable.LinearLayoutICS = global::Sample.Resource.Styleable.LinearLayoutICS;
+			global::Cheesebaron.Folding.Resource.Styleable.LinearLayoutICS_divider = global::Sample.Resource.Styleable.LinearLayoutICS_divider;
+			global::Cheesebaron.Folding.Resource.Styleable.LinearLayoutICS_dividerPadding = global::Sample.Resource.Styleable.LinearLayoutICS_dividerPadding;
+			global::Cheesebaron.Folding.Resource.Styleable.LinearLayoutICS_showDividers = global::Sample.Resource.Styleable.LinearLayoutICS_showDividers;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuGroup = global::Sample.Resource.Styleable.MenuGroup;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Sample.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuGroup_android_enabled = global::Sample.Resource.Styleable.MenuGroup_android_enabled;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuGroup_android_id = global::Sample.Resource.Styleable.MenuGroup_android_id;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuGroup_android_menuCategory = global::Sample.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuGroup_android_orderInCategory = global::Sample.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuGroup_android_visible = global::Sample.Resource.Styleable.MenuGroup_android_visible;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem = global::Sample.Resource.Styleable.MenuItem;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_actionLayout = global::Sample.Resource.Styleable.MenuItem_actionLayout;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_actionProviderClass = global::Sample.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_actionViewClass = global::Sample.Resource.Styleable.MenuItem_actionViewClass;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Sample.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_checkable = global::Sample.Resource.Styleable.MenuItem_android_checkable;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_checked = global::Sample.Resource.Styleable.MenuItem_android_checked;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_enabled = global::Sample.Resource.Styleable.MenuItem_android_enabled;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_icon = global::Sample.Resource.Styleable.MenuItem_android_icon;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_id = global::Sample.Resource.Styleable.MenuItem_android_id;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_menuCategory = global::Sample.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_numericShortcut = global::Sample.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_onClick = global::Sample.Resource.Styleable.MenuItem_android_onClick;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_orderInCategory = global::Sample.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_title = global::Sample.Resource.Styleable.MenuItem_android_title;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_titleCondensed = global::Sample.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_android_visible = global::Sample.Resource.Styleable.MenuItem_android_visible;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuItem_showAsAction = global::Sample.Resource.Styleable.MenuItem_showAsAction;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuView = global::Sample.Resource.Styleable.MenuView;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuView_android_headerBackground = global::Sample.Resource.Styleable.MenuView_android_headerBackground;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuView_android_horizontalDivider = global::Sample.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuView_android_itemBackground = global::Sample.Resource.Styleable.MenuView_android_itemBackground;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Sample.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuView_android_itemTextAppearance = global::Sample.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuView_android_preserveIconSpacing = global::Sample.Resource.Styleable.MenuView_android_preserveIconSpacing;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuView_android_verticalDivider = global::Sample.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Cheesebaron.Folding.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Sample.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Cheesebaron.Folding.Resource.Styleable.SearchView = global::Sample.Resource.Styleable.SearchView;
+			global::Cheesebaron.Folding.Resource.Styleable.SearchView_android_imeOptions = global::Sample.Resource.Styleable.SearchView_android_imeOptions;
+			global::Cheesebaron.Folding.Resource.Styleable.SearchView_android_inputType = global::Sample.Resource.Styleable.SearchView_android_inputType;
+			global::Cheesebaron.Folding.Resource.Styleable.SearchView_android_maxWidth = global::Sample.Resource.Styleable.SearchView_android_maxWidth;
+			global::Cheesebaron.Folding.Resource.Styleable.SearchView_iconifiedByDefault = global::Sample.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Cheesebaron.Folding.Resource.Styleable.SearchView_queryHint = global::Sample.Resource.Styleable.SearchView_queryHint;
+			global::Cheesebaron.Folding.Resource.Styleable.Spinner = global::Sample.Resource.Styleable.Spinner;
+			global::Cheesebaron.Folding.Resource.Styleable.Spinner_android_dropDownHorizontalOffset = global::Sample.Resource.Styleable.Spinner_android_dropDownHorizontalOffset;
+			global::Cheesebaron.Folding.Resource.Styleable.Spinner_android_dropDownSelector = global::Sample.Resource.Styleable.Spinner_android_dropDownSelector;
+			global::Cheesebaron.Folding.Resource.Styleable.Spinner_android_dropDownVerticalOffset = global::Sample.Resource.Styleable.Spinner_android_dropDownVerticalOffset;
+			global::Cheesebaron.Folding.Resource.Styleable.Spinner_android_dropDownWidth = global::Sample.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Cheesebaron.Folding.Resource.Styleable.Spinner_android_gravity = global::Sample.Resource.Styleable.Spinner_android_gravity;
+			global::Cheesebaron.Folding.Resource.Styleable.Spinner_android_popupBackground = global::Sample.Resource.Styleable.Spinner_android_popupBackground;
+			global::Cheesebaron.Folding.Resource.Styleable.Spinner_disableChildrenWhenDisabled = global::Sample.Resource.Styleable.Spinner_disableChildrenWhenDisabled;
+			global::Cheesebaron.Folding.Resource.Styleable.Spinner_popupPromptView = global::Sample.Resource.Styleable.Spinner_popupPromptView;
+			global::Cheesebaron.Folding.Resource.Styleable.Spinner_prompt = global::Sample.Resource.Styleable.Spinner_prompt;
+			global::Cheesebaron.Folding.Resource.Styleable.Spinner_spinnerMode = global::Sample.Resource.Styleable.Spinner_spinnerMode;
+			global::Cheesebaron.Folding.Resource.Styleable.Theme = global::Sample.Resource.Styleable.Theme;
+			global::Cheesebaron.Folding.Resource.Styleable.Theme_actionDropDownStyle = global::Sample.Resource.Styleable.Theme_actionDropDownStyle;
+			global::Cheesebaron.Folding.Resource.Styleable.Theme_dropdownListPreferredItemHeight = global::Sample.Resource.Styleable.Theme_dropdownListPreferredItemHeight;
+			global::Cheesebaron.Folding.Resource.Styleable.Theme_listChoiceBackgroundIndicator = global::Sample.Resource.Styleable.Theme_listChoiceBackgroundIndicator;
+			global::Cheesebaron.Folding.Resource.Styleable.Theme_panelMenuListTheme = global::Sample.Resource.Styleable.Theme_panelMenuListTheme;
+			global::Cheesebaron.Folding.Resource.Styleable.Theme_panelMenuListWidth = global::Sample.Resource.Styleable.Theme_panelMenuListWidth;
+			global::Cheesebaron.Folding.Resource.Styleable.Theme_popupMenuStyle = global::Sample.Resource.Styleable.Theme_popupMenuStyle;
+			global::Cheesebaron.Folding.Resource.Styleable.View = global::Sample.Resource.Styleable.View;
+			global::Cheesebaron.Folding.Resource.Styleable.View_android_focusable = global::Sample.Resource.Styleable.View_android_focusable;
+			global::Cheesebaron.Folding.Resource.Styleable.View_paddingEnd = global::Sample.Resource.Styleable.View_paddingEnd;
+			global::Cheesebaron.Folding.Resource.Styleable.View_paddingStart = global::Sample.Resource.Styleable.View_paddingStart;
 		}
 		
 		public partial class Animation
@@ -64,6 +646,9 @@ namespace Sample
 		
 		public partial class Array
 		{
+			
+			// aapt resource value: 0x7f0c0001
+			public const int PlanetsArray = 2131492865;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int num_of_folds_array = 2131492864;
@@ -821,10 +1406,46 @@ namespace Sample
 			public const int abc_textfield_searchview_right_holo_light = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int Icon = 2130837591;
+			public const int drawer_shadow_dark = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int image = 2130837592;
+			public const int drawer_shadow_light = 2130837592;
+			
+			// aapt resource value: 0x7f020059
+			public const int earth = 2130837593;
+			
+			// aapt resource value: 0x7f02005a
+			public const int ic_drawer_dark = 2130837594;
+			
+			// aapt resource value: 0x7f02005b
+			public const int ic_drawer_light = 2130837595;
+			
+			// aapt resource value: 0x7f02005c
+			public const int Icon = 2130837596;
+			
+			// aapt resource value: 0x7f02005d
+			public const int image = 2130837597;
+			
+			// aapt resource value: 0x7f02005e
+			public const int jupiter = 2130837598;
+			
+			// aapt resource value: 0x7f02005f
+			public const int mars = 2130837599;
+			
+			// aapt resource value: 0x7f020060
+			public const int mercury = 2130837600;
+			
+			// aapt resource value: 0x7f020061
+			public const int neptune = 2130837601;
+			
+			// aapt resource value: 0x7f020062
+			public const int saturn = 2130837602;
+			
+			// aapt resource value: 0x7f020063
+			public const int uranus = 2130837603;
+			
+			// aapt resource value: 0x7f020064
+			public const int venus = 2130837604;
 			
 			static Drawable()
 			{
@@ -878,8 +1499,8 @@ namespace Sample
 			// aapt resource value: 0x7f05000b
 			public const int always = 2131034123;
 			
-			// aapt resource value: 0x7f05003e
-			public const int anchor_seek_bar = 2131034174;
+			// aapt resource value: 0x7f050041
+			public const int anchor_seek_bar = 2131034177;
 			
 			// aapt resource value: 0x7f050011
 			public const int beginning = 2131034129;
@@ -890,6 +1511,12 @@ namespace Sample
 			// aapt resource value: 0x7f05000d
 			public const int collapseActionView = 2131034125;
 			
+			// aapt resource value: 0x7f05003d
+			public const int content_frame = 2131034173;
+			
+			// aapt resource value: 0x7f050044
+			public const int content_text = 2131034180;
+			
 			// aapt resource value: 0x7f050028
 			public const int default_activity_button = 2131034152;
 			
@@ -898,6 +1525,9 @@ namespace Sample
 			
 			// aapt resource value: 0x7f050008
 			public const int disableHome = 2131034120;
+			
+			// aapt resource value: 0x7f05003c
+			public const int drawer_layout = 2131034172;
 			
 			// aapt resource value: 0x7f05000f
 			public const int dropdown = 2131034127;
@@ -914,8 +1544,8 @@ namespace Sample
 			// aapt resource value: 0x7f05002c
 			public const int expanded_menu = 2131034156;
 			
-			// aapt resource value: 0x7f05003c
-			public const int fold_view = 2131034172;
+			// aapt resource value: 0x7f05003f
+			public const int fold_view = 2131034175;
 			
 			// aapt resource value: 0x7f050014
 			public const int home = 2131034132;
@@ -932,11 +1562,20 @@ namespace Sample
 			// aapt resource value: 0x7f050027
 			public const int image = 2131034151;
 			
-			// aapt resource value: 0x7f05003d
-			public const int image_view = 2131034173;
+			// aapt resource value: 0x7f050040
+			public const int image_view = 2131034176;
+			
+			// aapt resource value: 0x7f05003e
+			public const int left_drawer = 2131034174;
+			
+			// aapt resource value: 0x7f050043
+			public const int left_pane = 2131034179;
 			
 			// aapt resource value: 0x7f050001
 			public const int listMode = 2131034113;
+			
+			// aapt resource value: 0x7f050045
+			public const int listView1 = 2131034181;
 			
 			// aapt resource value: 0x7f050029
 			public const int list_item = 2131034153;
@@ -953,8 +1592,8 @@ namespace Sample
 			// aapt resource value: 0x7f050000
 			public const int normal = 2131034112;
 			
-			// aapt resource value: 0x7f050040
-			public const int num_of_folds = 2131034176;
+			// aapt resource value: 0x7f050047
+			public const int num_of_folds = 2131034183;
 			
 			// aapt resource value: 0x7f050018
 			public const int progress_circular = 2131034136;
@@ -1007,6 +1646,9 @@ namespace Sample
 			// aapt resource value: 0x7f050006
 			public const int showTitle = 2131034118;
 			
+			// aapt resource value: 0x7f050042
+			public const int sliding_pane_layout = 2131034178;
+			
 			// aapt resource value: 0x7f05001e
 			public const int split_action_bar = 2131034142;
 			
@@ -1019,8 +1661,8 @@ namespace Sample
 			// aapt resource value: 0x7f05002b
 			public const int title = 2131034155;
 			
-			// aapt resource value: 0x7f05003f
-			public const int toggle_orientation = 2131034175;
+			// aapt resource value: 0x7f050046
+			public const int toggle_orientation = 2131034182;
 			
 			// aapt resource value: 0x7f050020
 			public const int top_action_bar = 2131034144;
@@ -1136,13 +1778,28 @@ namespace Sample
 			public const int abc_simple_decor = 2130903063;
 			
 			// aapt resource value: 0x7f030018
-			public const int activity_fold = 2130903064;
+			public const int activity_drawer = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int spinner = 2130903065;
+			public const int activity_fold = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int support_simple_spinner_dropdown_item = 2130903066;
+			public const int activity_pane = 2130903066;
+			
+			// aapt resource value: 0x7f03001b
+			public const int drawer_listitem = 2130903067;
+			
+			// aapt resource value: 0x7f03001c
+			public const int fragment_planet = 2130903068;
+			
+			// aapt resource value: 0x7f03001d
+			public const int main = 2130903069;
+			
+			// aapt resource value: 0x7f03001e
+			public const int spinner = 2130903070;
+			
+			// aapt resource value: 0x7f03001f
+			public const int support_simple_spinner_dropdown_item = 2130903071;
 			
 			static Layout()
 			{
@@ -1159,6 +1816,9 @@ namespace Sample
 			
 			// aapt resource value: 0x7f0d0000
 			public const int fold = 2131558400;
+			
+			// aapt resource value: 0x7f0d0001
+			public const int spinner = 2131558401;
 			
 			static Menu()
 			{
@@ -1212,11 +1872,20 @@ namespace Sample
 			// aapt resource value: 0x7f0a000b
 			public const int abc_shareactionprovider_share_with_application = 2131361803;
 			
+			// aapt resource value: 0x7f0a0011
+			public const int drawer_close = 2131361809;
+			
+			// aapt resource value: 0x7f0a0010
+			public const int drawer_open = 2131361808;
+			
 			// aapt resource value: 0x7f0a000d
 			public const int horizontal = 2131361805;
 			
 			// aapt resource value: 0x7f0a000f
 			public const int num_of_folds = 2131361807;
+			
+			// aapt resource value: 0x7f0a0012
+			public const int sliding_pane_layout_summary = 2131361810;
 			
 			// aapt resource value: 0x7f0a000e
 			public const int vertical = 2131361806;

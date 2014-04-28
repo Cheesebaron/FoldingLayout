@@ -7,7 +7,7 @@ using Android.Util;
 using Android.Views;
 using Math = System.Math;
 
-namespace Folding
+namespace Cheesebaron.Folding
 {
     public class BaseFoldingLayout : ViewGroup
     {

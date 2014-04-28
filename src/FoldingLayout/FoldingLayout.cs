@@ -4,7 +4,7 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 
-namespace Folding
+namespace Cheesebaron.Folding
 {
     public class FoldingLayout : BaseFoldingLayout
     {

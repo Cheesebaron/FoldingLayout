@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cheesebaron.folding.FoldingPaneLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:folding="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_pane_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    folding:numberOfFolds="3">
+    <ListView
+        android:id="@+id/left_pane"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left" />
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:background="#ff999999">
+        <TextView
+            android:id="@+id/content_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/sliding_pane_layout_summary"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </ScrollView>
+</cheesebaron.folding.FoldingPaneLayout>

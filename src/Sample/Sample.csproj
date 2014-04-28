@@ -61,12 +61,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FoldingDrawerLayoutActivity.cs" />
     <Compile Include="FoldingLayoutActivity.cs" />
+    <Compile Include="FoldingPaneLayoutActivity.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="MyActionBarDrawerToggle.cs" />
+    <Compile Include="PlanetFragment.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shakespeare.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values\strings.xml" />
+    <AndroidResource Include="Resources\values\strings.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Icon.png" />
@@ -75,6 +83,27 @@
     <Content Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\drawable\image.png" />
     <AndroidResource Include="Resources\menu\fold.xml" />
+    <AndroidResource Include="Resources\menu\spinner.xml" />
+    <AndroidResource Include="Resources\drawable\earth.jpg" />
+    <AndroidResource Include="Resources\drawable\jupiter.jpg" />
+    <AndroidResource Include="Resources\drawable\mars.jpg" />
+    <AndroidResource Include="Resources\drawable\mercury.jpg" />
+    <AndroidResource Include="Resources\drawable\neptune.jpg" />
+    <AndroidResource Include="Resources\drawable\saturn.jpg" />
+    <AndroidResource Include="Resources\drawable\uranus.jpg" />
+    <AndroidResource Include="Resources\drawable\venus.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_drawer_dark.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_drawer_light.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_drawer_dark.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_drawer_light.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_drawer_dark.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_drawer_light.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FoldingLayout\Folding.csproj">
@@ -95,6 +124,31 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\spinner.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_drawer.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\fragment_planet.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\drawer_listitem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_pane.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\main.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

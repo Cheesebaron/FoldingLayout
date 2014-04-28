@@ -5,12 +5,12 @@ using Android.Support.V7.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Folding;
-using Orientation = Folding.BaseFoldingLayout.FoldingLayoutOrientation;
+using Cheesebaron.Folding;
+using Orientation = Cheesebaron.Folding.BaseFoldingLayout.FoldingLayoutOrientation;
 
 namespace Sample
 {
-    [Activity(Label = "FoldingLayout Sample", MainLauncher = true, Theme = "@style/Theme.AppCompat.Light")]
+    [Activity(Label = "FoldingLayout Sample", MainLauncher = false, Theme = "@style/Theme.AppCompat.Light")]
     public class FoldingLayoutActivity : ActionBarActivity
     {
         private const string Tag = "FoldingLayoutActivity";
